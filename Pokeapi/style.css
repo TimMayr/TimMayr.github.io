@@ -1,4 +1,5 @@
 * {
+background-color: black;
 	color       : white;
 	font-family : Arial, Helvetica, sans-serif;
 	margin      : 0;
@@ -133,11 +134,13 @@ h1 {
 }
 
 #mainLink img {
+background-color: transparent;
 	box-shadow : none;
 	width      : 10%;
 }
 
 #mainLink a {
+background-color: transparent;
 	color           : black;
 	text-decoration : none;
 	text-transform  : uppercase;
