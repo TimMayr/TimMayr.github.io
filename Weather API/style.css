@@ -1,0 +1,77 @@
+* {
+	background  : #3ED693;
+	font-family : Cormorant, serif;
+	font-weight : bold;
+	margin      : 0;
+	padding     : 0;
+}
+
+body {
+	align-items     : center;
+	display         : flex;
+	flex-direction  : column;
+	height          : 250vh;
+	justify-content : space-around;
+}
+
+h1 {
+	letter-spacing : 10px;
+	text-transform : uppercase;
+}
+
+h2 {
+	text-align : center;
+}
+
+.dayField {
+	border-bottom : #299467 solid 2px;
+	height        : 50vh;
+	margin-top    : 2%;
+	width         : 90%;
+}
+
+.statFields {
+	align-items     : baseline;
+	display         : flex;
+	flex-direction  : row;
+	justify-content : space-around;
+	text-align      : center;
+}
+
+.statField {
+	height         : 50%;
+	margin-top     : 10%;
+	text-transform : uppercase;
+	width          : 25%;
+}
+
+.statField p, img {
+	margin-top : 5%;
+}
+
+@font-face {
+	font-family : "Cormorant";
+	src         : url("./font/Cormorant/static/Cormorant-Regular.ttf");
+}
+
+#mainLink {
+	align-items     : center;
+	color           : black;
+	display         : flex;
+	flex-direction  : row;
+	justify-content : space-around;
+	left            : 5vw;
+	position        : absolute;
+	top             : 5vh;
+}
+
+#mainLink img {
+	width : 10%;
+}
+
+#mainLink a {
+	color           : black;
+	text-decoration : none;
+	text-transform  : uppercase;
+	width           : 80%;
+}

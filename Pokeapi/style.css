@@ -1,0 +1,145 @@
+* {
+	color       : white;
+	font-family : Arial, Helvetica, sans-serif;
+	margin      : 0;
+}
+
+img {
+	image-rendering : pixelated;
+	margin-left     : 10%;
+	scale           : 2;
+	width           : auto;
+}
+
+#result {
+	align-items    : center;
+	display        : flex;
+	flex-direction : column;
+}
+
+tr {
+	margin : 0;
+	width  : 100%;
+}
+
+table {
+	border-collapse : collapse;
+	margin          : 0;
+	text-align      : center;
+	width           : 100%;
+}
+
+th {
+	background-color : #B6B1B7;
+	border           : #000000 1px solid;
+	color            : white;
+	margin           : 0;
+	padding          : 1%;
+	width            : 33.33%;
+}
+
+thead {
+	margin : 0;
+}
+
+td {
+	background-color : #666267;
+	border           : #000000 1px solid;
+	color            : white;
+	margin           : 0;
+	width            : 33.33%;
+}
+
+#wrapper {
+	display        : flex;
+	flex-direction : column;
+	height         : 90%;
+	text-align     : center;
+	width          : 70%;
+}
+
+#wrapper p {
+	width : 100%;
+}
+
+#wrapper img {
+	margin : 0 3% 3%;
+	scale  : 1;
+	width  : 50%;
+}
+
+#imgWrapper {
+	align-items    : center;
+	display        : flex;
+	flex-direction : column;
+}
+
+#navbar {
+	display         : flex;
+	flex-direction  : row;
+	justify-content : space-around;
+}
+
+#navbar div {
+	border        : black solid 2px;
+	border-radius : 5px;
+	cursor        : pointer;
+	margin        : 1%;
+	min-width     : 20%;
+	padding       : 1%;
+	text-align    : center;
+}
+
+.group {
+	display        : flex;
+	flex-direction : row;
+	width          : 80%;
+}
+
+#backToStart {
+	border        : black 2px solid;
+	border-radius : 5px;
+	left          : 2.6%;
+	padding       : 0.5%;
+	position      : absolute;
+	top           : 5%;
+}
+
+#Info {
+	align-items    : center;
+	display        : flex;
+	flex-direction : column;
+	margin-bottom  : 2%;
+}
+
+h1 {
+	margin-bottom : 1%;
+	margin-top    : 2%;
+}
+
+#mainLink {
+	align-items      : center;
+	background-color : #666666;
+	border           : black 5px solid;
+	border-radius    : 15px;
+	color            : black;
+	display          : flex;
+	flex-direction   : row;
+	justify-content  : space-around;
+	left             : 5vw;
+	position         : absolute;
+	top              : 5vh;
+	width            : 15vw;
+}
+
+#mainLink img {
+	box-shadow : none;
+	width      : 10%;
+}
+
+#mainLink a {
+	color           : black;
+	text-decoration : none;
+	text-transform  : uppercase;
+	width           : 80%;
+}
