@@ -22,6 +22,16 @@ body {
 	width           : 100vw;
 }
 
+@media only screen and (max-width : 800px ) {
+	#wrapper {
+		flex-direction: column;
+	}
+
+	#wrapper * {
+		scale: 2;
+	}
+}
+
 img {
 	border-radius : 15px;
 	box-shadow    : 7px 13px 9px 0 rgba(0, 0, 0, 0.65);
